@@ -1,0 +1,87 @@
+/* 
+
+Eamon Lightning
+eamon_lightning@student.uml.edu
+Sound Recording Technology major; Computer Science minor.
+Created on November 12, 2014
+
+The corresponding website provides a brief introduction of myself, 
+lists homework assignments for this course (91.461), and means of contact.
+
+This css file is used to give a little more personality to the site.
+
+*/
+
+/* This class controls the appearance of the piece of text that describes 
+what page the user is currently on. */
+.description {
+	font-family: Helvetica, sans-serif;
+	background-color: #8185ff;
+	color: white;
+	text-align: center;
+	font-size: 20px;
+	width: 150px;
+	margin-bottom: 18px;
+}
+
+/* The left/right margin is set to 200px to compensate for all of the
+empty space on the site. It also makes the text easier to read. */
+body {
+	font-family: Arial, sans-serif;
+	background-color: #fffffd;
+	margin: 15px 200px;
+}
+
+a {
+	width: 100px;
+	text-decoration: none;
+	font-family: verdana, sans-serif;
+}
+
+/* This rule ensures that the e-mail address I provide,
+which lives inside the <a> tag, maintains the normal font
+of the other text in the content area of the page, as opposed
+to the verdana font used with the <a> elements */
+span {
+	font-family: Arial, sans-serif;
+}
+
+/* The class ".nav" controls the inividual list items within 
+the <ul> elements */
+.nav {
+	display: inline;
+	padding: 7px 50px;
+	position: relative;
+	left: 167px;
+}
+
+ul {
+	border-style: solid;
+	border-radius: 15px;
+	border-color: #707070;
+	margin-top: 20px;
+	margin-bottom: 45px;
+	padding: 10px;
+	width: 850px;
+	position: relative;
+	list-style-type: none;
+}
+
+/* The class ".content" controls the main text/content of
+the webpage. The background color is light gray, which sets
+it apart from the rest of the body. */
+.content {
+	background-color: #f0f0f0;
+	padding: 3px;
+}
+
+td {
+	border-style: solid;
+	border-width: thin;
+	padding: 10px;
+}
+
+th {
+	border-style: solid;
+	border-width: 2px;
+}
